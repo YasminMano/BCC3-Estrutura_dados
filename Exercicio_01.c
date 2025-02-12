@@ -21,11 +21,11 @@ int main() {
     scanf("%d %d %d", &x, &y, &z);
 
     // Alocar dinamicamente a memória para a matriz 3D
-    int ***matriz = (int ***)malloc(x * sizeof(int **));  // Aloca o ponteiro para x camadas
+    int ***matriz = (int ***)malloc(x * sizeof(int **));
     for (int i = 0; i < x; i++) {
-        matriz[i] = (int **)malloc(y * sizeof(int *));  // Aloca o ponteiro para y linhas em cada camada
+        matriz[i] = (int **)malloc(y * sizeof(int *));
         for (int j = 0; j < y; j++) {
-            matriz[i][j] = (int *)malloc(z * sizeof(int));  // Aloca o ponteiro para z colunas em cada linha
+            matriz[i][j] = (int *)malloc(z * sizeof(int));
         }
     }
 
@@ -56,11 +56,11 @@ int main() {
     // Liberar a memória alocada dinamicamente
     for (int i = 0; i < x; i++) {
         for (int j = 0; j < y; j++) {
-            free(matriz[i][j]);  // Libera cada linha de cada camada
+            free(matriz[i][j]);
         }
-        free(matriz[i]);  // Libera cada camada
+        free(matriz[i]);
     }
-    free(matriz);  // Libera o ponteiro de camadas
+    free(matriz);
 
     return 0;
 }
