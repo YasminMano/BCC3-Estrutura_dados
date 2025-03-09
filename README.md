@@ -53,5 +53,4 @@ Este repositório contém implementações de diversas estruturas de dados e alg
 - Um compilador C (GCC, Clang, MSVC, etc.) caso utilize VsCode
 - Git instalado (opcional, mas recomendado)
 
-📩 Se tiver dúvidas ou sugestões, entre em contato!
 
