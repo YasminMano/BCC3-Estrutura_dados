@@ -33,11 +33,11 @@ Este repositório contém implementações de diversas estruturas de dados e alg
 ## 🚀 Como Usar
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/YasminMaano/BCC3-Estrutura_dados.git
+   git clone https://github.com/YasminMano/BCC3-Estrutura_dados.git
    ```
 2. Acesse a pasta do projeto:
    ```sh
-   cd estrutura-de-dados-c
+   cd BCC3-Estrutura_dados-c
    ```
 3. Compile os arquivos desejados:
    ```sh
