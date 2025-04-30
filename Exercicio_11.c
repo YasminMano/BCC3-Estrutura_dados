@@ -31,7 +31,7 @@ void inicializar(Hash *tab, int m) {
 
 // Função hash usando o método da multiplicação
 int hash(int k, int m) {
-  double A = 0.6180339887; // número irracional (aprox. (√5 - 1)/2)
+  double A = 0.110001; // aproximação simples do número de Liouville
   double val = k * A;
   double frac = val - (int)val; // parte fracionária
   return (int)(m * frac);
